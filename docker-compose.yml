@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  summarizer:
-    image: summarizer
-    build:
-      context: .
-      dockerfile: ./Dockerfile

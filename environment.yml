@@ -1,0 +1,9 @@
+name: hfapp
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.10
+  - pytorch
+  - streamlit
+  - transformers

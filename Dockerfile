@@ -1,13 +1,11 @@
-FROM python:3.10
-
-EXPOSE 8501
+FROM continuumio/miniconda3
 
 WORKDIR /app
 
-COPY requirements.txt ./requirements.txt
+COPY environment.yml .
+RUN conda env create -f environment.yml
 
-RUN pip3 install -r requirements.txt
+SHELL ["conda", "run", "-n", "hfapp", "/bin/bash", "-c"]
 
-COPY . .
-
-CMD streamlit run app.py
+COPY ./src .
+ENTRYPOINT ["conda", "run", "--no-capture-output", "-n", "hfapp", "python", "app.py"]
