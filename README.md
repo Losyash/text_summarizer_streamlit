@@ -6,3 +6,5 @@
 - [Streamlit](https://streamlit.io/)
 
 Локальное тестирование проводилось в [conda](https://docs.conda.io/en/latest/) и [docker](https://www.docker.com/).
+
+Ссылка на развернутое [приложение](https://losyash-text-summarizer-streamlit-app-9grqc2.streamlit.app/).
