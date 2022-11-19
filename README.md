@@ -9,4 +9,4 @@
 
 Ссылка на развернутое [приложение](https://losyash-text-summarizer-streamlit-app-9grqc2.streamlit.app/).
 
-PS. Файл для создания окружения при помощи conda `environment.yml` переименован в `environments.yml`, так как `streamlit` по умолчанию использует этог файл для загрузки зависимостей, а не файла `requirements.txt`, что приводит к ошибке развертывания приложения в streamlit.
+PS. Файл параметров окружения conda `environment.yml` переименован в `environments.yml`, так как `streamlit` по умолчанию использует этог файл для загрузки зависимостей, а не файла `requirements.txt`, что приводит к ошибке развертывания приложения в streamlit.
