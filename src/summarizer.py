@@ -7,6 +7,9 @@ model = T5ForConditionalGeneration.from_pretrained(model_name)
 # model_name = "IlyaGusev/rugpt3medium_sum_gazeta"
 
 def summirize(article_text):
+    '''
+    Аннотирует текст на основе гтовой модели
+    '''
     input_ids = tokenizer(
         [article_text],
         max_length=600,

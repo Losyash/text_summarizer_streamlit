@@ -1,7 +1,7 @@
 import io
 import streamlit as st
 
-from text_summarizer import summirize
+from src.summarizer import summirize
 
 
 txt = None

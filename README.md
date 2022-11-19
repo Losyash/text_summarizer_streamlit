@@ -2,6 +2,7 @@
 
 Используются библиотеки:
 - [Huggingface](https://huggingface.co/)
+- [Pytorch](https://pytorch.org/)
 - [Streamlit](https://streamlit.io/)
 
 Локальное тестирование проводилось в [conda](https://docs.conda.io/en/latest/) и [docker](https://www.docker.com/).
