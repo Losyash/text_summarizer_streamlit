@@ -16,7 +16,7 @@ PS. Файл параметров окружения conda `environment.yml` п�
 
 Создаем контейнер
 ```
-docker build . -t streamlitapp  --progress=plain
+docker build . -t streamlitapp --progress=plain
 ```
 
 Запускаем контейнер
