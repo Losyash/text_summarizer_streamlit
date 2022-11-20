@@ -1,4 +1,4 @@
-Приложение для аннотирования текстов на русском языке на основе [модели](https://huggingface.co/IlyaGusev/rut5_base_sum_gazeta) Ильи Гусева.
+### Приложение для аннотирования текстов на русском языке на основе [модели](https://huggingface.co/IlyaGusev/rut5_base_sum_gazeta) Ильи Гусева.
 
 Используются библиотеки:
 - [Huggingface](https://huggingface.co/)
